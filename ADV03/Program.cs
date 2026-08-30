@@ -95,6 +95,40 @@
             ////7. Print all Keys on one line, then all Values on another line
             //ClassHelper.PrintDictionary("Phone Book", phones);
             #endregion
+            #region Question(Exercise:)
+        //    // 1. Create HashSet with case-insensitive comparer
+        //    HashSet<string> emails =  new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        //    // 2. Add emails
+        //    emails.Add("ahmed@test.com");
+        //    emails.Add("AHMED@test.com");
+        //    emails.Add("sara@test.com");
+        //    emails.Add("Sara@Test.Com");
+        //    // 3. Print Count
+        //    Console.WriteLine("Email Count: " + emails.Count);
+        //    // 4. Create Set A and Set B
+        //    HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+        //    HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+
+        //    // UnionWith
+        //    HashSet<int> union = (setA);
+        //   union.UnionWith(setB);
+        //    ClassHelper.PrintHashSet("Union",union);
+        //    // IntersectWith
+        //HashSet<int> intersect =  (setA);
+        //    intersect.IntersectWith(setB);
+        //    ClassHelper.PrintHashSet("intersection", intersect);
+        //    // ExceptWith
+        //    HashSet<int> except = (setA);
+        //    except.ExceptWith(setB);
+        //    ClassHelper.PrintHashSet("exception", except);
+        //    //6. Use IsSubsetOf to check if {1,2} is a subset of Set A
+        //    HashSet<int> subset = new HashSet<int> { 1, 2 };
+
+        //    bool result = subset.IsSubsetOf(setA);
+
+        //    Console.WriteLine("{1,2} is subset of Set A: " + result);
+
+            #endregion
 
 
         }
