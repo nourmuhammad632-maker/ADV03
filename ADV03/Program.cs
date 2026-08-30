@@ -64,6 +64,37 @@
             //leaderboard.Remove(200);
             //ClassHelper.PrintSortedDictionary("Listed after removed",leaderboard);
             #endregion
+            #region Question3(Exercise3:)
+            ////1. Create a Collection with 4 contacts (name → phone number)
+            //Dictionary<int,string> phones=new Dictionary<int, string>();
+            //phones.Add(0112344576, "muhammed");
+            //phones.Add(0112678977, "Faten");
+            //phones.Add(01271567229, "Nour");
+            //phones.Add(0101276438, "khalid");
+            //// 2. Add a new contact using [] syntax
+            //phones[01223994589] = "Marwan";
+            ////3. Try adding a duplicate using .Add() — catch the exception and print the error
+            //try
+            //{
+            //    phones.Add(01271567, "  Nour");
+            //}
+            //catch (ArgumentException ex)
+            //{
+            //    Console.WriteLine("Add Error: " + ex.Message);
+            //}
+            //// 4. Try adding a duplicate using .TryAdd()
+            //bool added = phones.TryAdd(01271567, "  Nour");
+            //Console.WriteLine("TryAdd succeeded: " + added);
+            ////5. Search for a contact that doesn’t exist
+            //bool exists = phones.ContainsKey(012332133);
+            //Console.WriteLine($"exist ? {exists}");
+            ////6. Get a contact with a fallback of "Not Found"
+            //bool geted = phones.TryGetValue(01271567, out string?vl);
+            //Console.WriteLine(geted);
+            //Console.WriteLine(vl ?? "Null");
+            ////7. Print all Keys on one line, then all Values on another line
+            //ClassHelper.PrintDictionary("Phone Book", phones);
+            #endregion
 
 
         }
