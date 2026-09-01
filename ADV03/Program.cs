@@ -158,7 +158,48 @@
             //Console.WriteLine("---------------------------------");
             //bool result = printQueue.TryDequeue(out string? val);
             //Console.WriteLine($"Success?{result}");
-            //Console.WriteLine("result returned ?");
+            //Console.Write("result returned ?");
+            //Console.WriteLine(val ?? "null");
+
+
+
+            #endregion
+            #region Question6(Exercise6:)
+            ////Create a Stack<string> for browser history
+           
+            //Stack<string> browserHistory = new Stack<string>();
+            //Console.WriteLine("---------------------------------");
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
+            //ClassHelper.PrintStack("*Browser History*",browserHistory);
+            //Console.WriteLine("---------------------------------");
+            ////2. Use Peek to see the current page (top of stack)
+            //Console.WriteLine( browserHistory.Peek());
+            //Console.WriteLine("---------------------------------");
+            //for (int i = 0;i<3;i++)
+            //{
+            //    if (browserHistory.Count > 0)
+            //    {
+            //        string poped=browserHistory.Pop();
+            //        Console.WriteLine($"Poped from Stack  { poped}");
+            //    }
+
+            //}
+            //Console.WriteLine("---------------------------------");
+            ////4. Print the current page after going back
+            //if (browserHistory.Count > 0) {
+            //    Console.WriteLine($"Current Page:{browserHistory.Peek()}");
+
+            //        }
+            //Console.WriteLine("---------------------------------");
+            ////5. Try TryPop on an empty stack — what happens?
+            //browserHistory.Clear();
+            //bool result = browserHistory.TryPop(out string?val);
+            //Console.WriteLine($"Success?{result}");
+            //Console.Write("result returned ?");
             //Console.WriteLine(val ?? "null");
 
 

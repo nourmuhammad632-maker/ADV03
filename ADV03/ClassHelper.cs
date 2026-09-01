@@ -52,6 +52,15 @@ namespace ADV03
                 Console.WriteLine($"Queue{name}");
                 foreach (T item in queue) Console.WriteLine(item);
             }
+        
+        }
+        public static void PrintStack<T>(string name, Stack<T> stack)
+        { if (!string.IsNullOrEmpty(name) && stack is not null && stack.Count > 0)
+            {
+                Console.WriteLine($"Stack:{name}");
+                foreach (T item in stack) Console.WriteLine(item);
+            }
+        
         }
     }
 }
