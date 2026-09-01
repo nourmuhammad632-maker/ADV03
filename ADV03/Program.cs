@@ -96,40 +96,74 @@
             //ClassHelper.PrintDictionary("Phone Book", phones);
             #endregion
             #region Question(Exercise:)
-        //    // 1. Create HashSet with case-insensitive comparer
-        //    HashSet<string> emails =  new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-        //    // 2. Add emails
-        //    emails.Add("ahmed@test.com");
-        //    emails.Add("AHMED@test.com");
-        //    emails.Add("sara@test.com");
-        //    emails.Add("Sara@Test.Com");
-        //    // 3. Print Count
-        //    Console.WriteLine("Email Count: " + emails.Count);
-        //    // 4. Create Set A and Set B
-        //    HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
-        //    HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+            //    // 1. Create HashSet with case-insensitive comparer
+            //    HashSet<string> emails =  new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            //    // 2. Add emails
+            //    emails.Add("ahmed@test.com");
+            //    emails.Add("AHMED@test.com");
+            //    emails.Add("sara@test.com");
+            //    emails.Add("Sara@Test.Com");
+            //    // 3. Print Count
+            //    Console.WriteLine("Email Count: " + emails.Count);
+            //    // 4. Create Set A and Set B
+            //    HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //    HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
 
-        //    // UnionWith
-        //    HashSet<int> union = (setA);
-        //   union.UnionWith(setB);
-        //    ClassHelper.PrintHashSet("Union",union);
-        //    // IntersectWith
-        //HashSet<int> intersect =  (setA);
-        //    intersect.IntersectWith(setB);
-        //    ClassHelper.PrintHashSet("intersection", intersect);
-        //    // ExceptWith
-        //    HashSet<int> except = (setA);
-        //    except.ExceptWith(setB);
-        //    ClassHelper.PrintHashSet("exception", except);
-        //    //6. Use IsSubsetOf to check if {1,2} is a subset of Set A
-        //    HashSet<int> subset = new HashSet<int> { 1, 2 };
+            //    // UnionWith
+            //    HashSet<int> union = (setA);
+            //   union.UnionWith(setB);
+            //    ClassHelper.PrintHashSet("Union",union);
+            //    // IntersectWith
+            //HashSet<int> intersect =  (setA);
+            //    intersect.IntersectWith(setB);
+            //    ClassHelper.PrintHashSet("intersection", intersect);
+            //    // ExceptWith
+            //    HashSet<int> except = (setA);
+            //    except.ExceptWith(setB);
+            //    ClassHelper.PrintHashSet("exception", except);
+            //    //6. Use IsSubsetOf to check if {1,2} is a subset of Set A
+            //    HashSet<int> subset = new HashSet<int> { 1, 2 };
 
-        //    bool result = subset.IsSubsetOf(setA);
+            //    bool result = subset.IsSubsetOf(setA);
 
-        //    Console.WriteLine("{1,2} is subset of Set A: " + result);
+            //    Console.WriteLine("{1,2} is subset of Set A: " + result);
 
             #endregion
+            #region Question5(Exercise5:)
+            //// Create Queue
+            //Queue<string> printQueue = new Queue<string>();
 
+            //// Enqueue 5 documents
+            //printQueue.Enqueue("Report.pdf");
+            //printQueue.Enqueue("Invoice.pdf");
+            //printQueue.Enqueue("Letter.docx");
+            //printQueue.Enqueue("Resume.pdf");
+            //printQueue.Enqueue("Photo.jpg");
+            //// 1. Print queue contents and Count
+            //Console.WriteLine("---------------------------------");
+            //ClassHelper.PrintQueue("Printer", printQueue);
+            ////2. Use Peek to see which document will print next (without removing)
+            //Console.WriteLine("---------------------------------");
+            //Console.WriteLine("Next document: " + printQueue.Peek());
+
+            //Console.WriteLine("Count after Peek: " + printQueue.Count);
+            ////3. Process the queue: Dequeue each document and print "Printing: [name]"
+            //Console.WriteLine("---------------------------------");
+            //while (printQueue.Count > 0)
+            //{
+            //    string document= printQueue.Dequeue();
+            //    Console.WriteLine($" Printing:[{document}]");
+            //        }
+            ////4. Try TryDequeue on the now-empty queue — what happens?
+            //Console.WriteLine("---------------------------------");
+            //bool result = printQueue.TryDequeue(out string? val);
+            //Console.WriteLine($"Success?{result}");
+            //Console.WriteLine("result returned ?");
+            //Console.WriteLine(val ?? "null");
+
+
+
+            #endregion
 
         }
     }

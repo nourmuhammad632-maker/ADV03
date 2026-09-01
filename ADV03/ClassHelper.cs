@@ -46,5 +46,12 @@ namespace ADV03
                 Console.WriteLine(string.Join(" ,", hashSet));
             }
         }
+        public static void PrintQueue<T>(string name, Queue<T> queue)
+        { if (!string.IsNullOrEmpty(name) && queue is not null && queue.Count > 0)
+            {
+                Console.WriteLine($"Queue{name}");
+                foreach (T item in queue) Console.WriteLine(item);
+            }
+        }
     }
 }
